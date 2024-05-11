@@ -1,0 +1,34 @@
+.login-container {
+    display: flex; /* Flexbox kullanımı */
+    justify-content: center; /* Ortalanmış içerik */
+    align-items: center; /* Dikey olarak ortalanmış */
+    height: 100vh; /* Tam ekran yüksekliği */
+    background-color: #f8f9fa; /* Arka plan rengi */
+}
+
+.login-form {
+    background-color: white; /* Beyaz arka plan */
+    border-radius: 5px; /* Köşeleri yumuşat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Gölgeli efekt */
+    padding: 20px; /* İç boşluk */
+    width: 300px; /* Form genişliği */
+    text-align: center;
+}
+
+/* Form Kontrolleri */
+.form-control {
+    margin-bottom: 10px; /* Her öğe arasında boşluk */
+}
+
+/* Login Butonu */
+.btn {
+    background-color: #ca6c6c; /* Buton rengi */
+    border-radius: 5px; /* Köşeleri yumuşat */
+    transition: background-color 0.3s ease; /* Yumuşak geçiş */
+    display: inline-block;
+}
+
+/* Hover Efekti */
+.btn:hover {
+    background-color: #a85858; /* Hover rengi */
+}
